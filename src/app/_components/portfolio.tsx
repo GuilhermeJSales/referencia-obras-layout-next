@@ -112,11 +112,7 @@ export default function Portfolio() {
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   onClick={() => setSelectedProject(project)}
-                  className={`project-card group aspect-[4/3] ${
-                    project.featured
-                      ? 'md:col-span-2 md:row-span-2 aspect-square'
-                      : ''
-                  }`}
+                  className={`project-card group aspect-[4/3]`}
                 >
                   <img
                     src={project.images[0]}
