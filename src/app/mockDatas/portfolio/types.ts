@@ -24,3 +24,8 @@ export interface RegionsProps {
   id: string;
   label: string;
 }
+
+export interface ClientsProps {
+  name: string;
+  logo: string;
+}

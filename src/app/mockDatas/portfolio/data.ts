@@ -1,4 +1,9 @@
-import { CategoriesProps, ProjectsProps, RegionsProps } from './types';
+import {
+  CategoriesProps,
+  ClientsProps,
+  ProjectsProps,
+  RegionsProps,
+} from './types';
 
 export const projects: ProjectsProps[] = [
   {
@@ -235,4 +240,20 @@ export const regions: RegionsProps[] = [
   { id: 'Centro-Oeste', label: 'Centro-Oeste' },
   { id: 'Nordeste', label: 'Nordeste' },
   { id: 'Norte', label: 'Norte' },
+];
+
+export const clients: ClientsProps[] = [
+  { name: 'Comolatti', logo: 'COMOLATTI' },
+  { name: 'Express Grill', logo: 'EXPRESS GRILL' },
+  { name: 'Iveco', logo: 'IVECO' },
+  { name: 'Castor', logo: 'CASTOR' },
+  { name: 'Terraço Itália', logo: 'TERRAÇO ITÁLIA' },
+  { name: 'Iveco Cofipe', logo: 'IVECO COFIPE' },
+  { name: 'Viaduto Empilhadeiras', logo: 'VIADUTO EMPILHADEIRAS' },
+  { name: 'BR Auto Parts', logo: 'BRAUTOPARTS' },
+  { name: 'Orbid', logo: 'ORBID7C' },
+  {
+    name: 'Agência Ambiental do Vale do Paraíba',
+    logo: 'AGÊNCIA AMBIENTAL DO VALE',
+  },
 ];

@@ -1,3 +1,4 @@
+import Clients from './_components/clients';
 import Hero from './_components/hero';
 import Portfolio from './_components/portfolio';
 import Services from './_components/services';
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Portfolio />
+      <Clients />
     </>
   );
 }
