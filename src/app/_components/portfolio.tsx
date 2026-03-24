@@ -38,7 +38,7 @@ export default function Portfolio() {
             className="mb-12"
           >
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-px bg-blue-500" />
+              <div className="w-8 h-1 bg-blue-500" />
               <span className="text-xs font-bold uppercase tracking-widest text-zinc-500">
                 Portfolio
               </span>
