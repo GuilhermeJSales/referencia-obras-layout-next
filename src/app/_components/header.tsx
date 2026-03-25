@@ -24,10 +24,8 @@ export default function Header() {
   return (
     <header
       data-testid="header"
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white border-b border-zinc-200 py-4'
-          : 'bg-transparent py-6'
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 py-6 ${
+        isScrolled ? 'bg-white border-b border-zinc-200' : 'bg-transparent '
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
