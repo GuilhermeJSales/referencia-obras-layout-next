@@ -36,7 +36,6 @@ export default function About() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left - Content */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -68,8 +67,6 @@ export default function About() {
               qualidade. Somos especialistas em regularização e obtenção de AVCB
               junto ao Corpo de Bombeiros.
             </p>
-
-            {/* Features Grid */}
             <div className="grid sm:grid-cols-2 gap-6">
               {features.map((feature, index) => (
                 <motion.div
@@ -96,7 +93,6 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Right - Image Collage */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -137,7 +133,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* Decorative Element */}
             <div className="absolute -bottom-4 -right-4 w-32 h-32 border-4 border-blue-500 -z-10" />
           </motion.div>
         </div>

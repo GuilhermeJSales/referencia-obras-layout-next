@@ -29,7 +29,6 @@ export default function Portfolio() {
         className="py-24 bg-white border-b border-zinc-200"
       >
         <div className="max-w-7xl mx-auto px-6">
-          {/* Section Header */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -56,7 +55,6 @@ export default function Portfolio() {
             </div>
           </motion.div>
 
-          {/* Filters */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -64,7 +62,6 @@ export default function Portfolio() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mb-8 flex flex-col md:flex-row gap-6"
           >
-            {/* Category Filters */}
             <div className="flex flex-wrap gap-2">
               {categories.map((cat) => (
                 <button
@@ -78,7 +75,6 @@ export default function Portfolio() {
               ))}
             </div>
 
-            {/* Region Filter */}
             <div className="flex items-center gap-2">
               <MapPin size={16} className="text-zinc-400" />
               <select
@@ -96,7 +92,6 @@ export default function Portfolio() {
             </div>
           </motion.div>
 
-          {/* Projects Grid */}
           <motion.div
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-4"
             layout
@@ -120,7 +115,6 @@ export default function Portfolio() {
                     className="w-full h-full object-cover grayscale-hover"
                   />
 
-                  {/* Hover Overlay Content */}
                   <div className="project-card-content">
                     <div className="flex items-center gap-2 mb-2">
                       <span className="location-tag">
@@ -143,7 +137,6 @@ export default function Portfolio() {
                     </div>
                   </div>
 
-                  {/* Always Visible Badge */}
                   <div className="absolute top-4 left-4 z-10">
                     <span className="location-tag">
                       <MapPin size={10} />
@@ -155,7 +148,6 @@ export default function Portfolio() {
             </AnimatePresence>
           </motion.div>
 
-          {/* Empty State */}
           {filteredProjects.length === 0 && (
             <div className="text-center py-16">
               <p className="text-zinc-500">
@@ -166,7 +158,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Lightbox */}
       <AnimatePresence>
         {selectedProject && (
           <ProjectLightbox

@@ -27,7 +27,6 @@ export default function Testimonials() {
       className="py-24 bg-zinc-50 grid-bg border-b border-zinc-200"
     >
       <div className="max-w-7xl mx-auto px-6">
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -46,10 +45,7 @@ export default function Testimonials() {
             Quem Conhece, Recomenda
           </h2>
         </motion.div>
-
-        {/* Testimonial Card */}
         <div className="max-w-4xl mx-auto relative">
-          {/* Quote Mark */}
           <div className="absolute -top-8 left-0 pointer-events-none">
             <Quote size={120} className="text-blue-500 opacity-20" />
           </div>
@@ -63,12 +59,10 @@ export default function Testimonials() {
               transition={{ duration: 0.4 }}
               className="bg-white border border-zinc-200 p-8 md:p-12 relative"
             >
-              {/* Quote */}
               <p className="text-xl md:text-2xl text-zinc-700 leading-relaxed mb-8 relative z-10">
                 "{current.text}"
               </p>
 
-              {/* Author */}
               <div className="flex items-center gap-4">
                 <img
                   src={current.image}
@@ -90,9 +84,7 @@ export default function Testimonials() {
             </motion.div>
           </AnimatePresence>
 
-          {/* Navigation */}
           <div className="flex items-center justify-between mt-8">
-            {/* Dots */}
             <div className="flex gap-2">
               {testimonials.map((_, index) => (
                 <button
@@ -107,8 +99,6 @@ export default function Testimonials() {
                 />
               ))}
             </div>
-
-            {/* Arrows */}
             <div className="flex gap-2">
               <button
                 data-testid="testimonial-prev"

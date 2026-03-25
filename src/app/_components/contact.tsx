@@ -68,11 +68,9 @@ ${formData.message || 'Não informada'}`;
 
   return (
     <section id="contato" className="py-24 bg-zinc-900 grid-bg relative">
-      {/* Grid Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:32px_32px]" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +86,6 @@ ${formData.message || 'Não informada'}`;
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16">
-          {/* FORM */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -203,8 +200,6 @@ ${formData.message || 'Não informada'}`;
               </form>
             )}
           </motion.div>
-
-          {/* INFO */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}

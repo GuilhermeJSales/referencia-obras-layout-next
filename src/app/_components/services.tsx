@@ -31,7 +31,6 @@ export default function Services() {
       className="py-24 grid-bg border-b border-zinc-200"
     >
       <div className="max-w-7xl mx-auto px-6">
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +53,6 @@ export default function Services() {
           </p>
         </motion.div>
 
-        {/* Bento Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {services.map((service, index) => {
             const Icon = iconMap[service.icon];
@@ -97,7 +95,6 @@ export default function Services() {
           })}
         </div>
 
-        {/* CTA */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

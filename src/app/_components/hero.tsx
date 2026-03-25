@@ -8,7 +8,6 @@ export default function Hero() {
       data-testid="hero-section"
       className="min-h-screen grid-bg relative flex items-center border-b border-zinc-200"
     >
-      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/80 z-10" />
         <img
@@ -20,13 +19,11 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 py-32 pt-40 relative z-20 w-full">
         <div className="grid lg:grid-cols-[1.1fr_1fr] gap-6 items-center">
-          {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            {/* Badge */}
             <div className="flex items-center gap-2 mb-8">
               <div className="w-2 h-2 bg-blue-500" />
               <span className="text-xs font-bold uppercase tracking-widest text-zinc-500">
@@ -34,14 +31,12 @@ export default function Hero() {
               </span>
             </div>
 
-            {/* Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-zinc-900 leading-15 tracking-tighter uppercase mb-8">
               Construção de Galpões
               <span className="text-blue-500"> e Regularização AVCB </span>
               em Todo o Brasil
             </h1>
 
-            {/* Description */}
             <p className="text-lg md:text-xl text-zinc-600 max-w-xl mb-10 leading-relaxed">
               Galpões industriais, obras comerciais e soluções completas de
               engenharia
@@ -49,7 +44,6 @@ export default function Hero() {
               Qualidade, segurança e aprovação junto ao Corpo de Bombeiros.
             </p>
 
-            {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#projetos"
@@ -69,7 +63,6 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Right - Stats */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -77,7 +70,6 @@ export default function Hero() {
             className="hidden lg:block"
           >
             <div className="grid grid-cols-2 gap-4">
-              {/* Stat Card 1 */}
               <div className="border border-zinc-200 p-8 bg-white/80 backdrop-blur-sm">
                 <span className="text-6xl font-black text-zinc-900">150+</span>
                 <p className="text-sm font-semibold uppercase tracking-wider text-zinc-500 mt-2">
@@ -85,15 +77,12 @@ export default function Hero() {
                 </p>
               </div>
 
-              {/* Stat Card 2 */}
               <div className="border border-zinc-200 p-8 bg-zinc-900 text-white">
                 <span className="text-6xl font-black">500k</span>
                 <p className="text-sm font-semibold uppercase tracking-wider text-zinc-400 mt-2">
                   m² Construídos
                 </p>
               </div>
-
-              {/* Stat Card 3 */}
               <div className="border border-zinc-200 p-8 bg-blue-500">
                 <span className="text-6xl font-black text-white">27</span>
                 <p className="text-sm font-semibold uppercase tracking-wider text-white mt-2">
@@ -101,7 +90,6 @@ export default function Hero() {
                 </p>
               </div>
 
-              {/* Stat Card 4 */}
               <div className="border border-zinc-200 p-8 bg-white/80 backdrop-blur-sm">
                 <span className="text-6xl font-black text-zinc-900">100%</span>
                 <p className="text-sm font-semibold uppercase tracking-wider text-zinc-500 mt-2">
@@ -112,7 +100,6 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Location Indicator */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
