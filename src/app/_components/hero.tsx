@@ -6,7 +6,7 @@ export default function Hero() {
     <section
       id="inicio"
       data-testid="hero-section"
-      className="min-h-screen grid-bg relative flex items-center border-b border-zinc-200"
+      className="min-h-screen min-h-[100dvh] grid-bg relative flex items-center border-b border-zinc-200"
     >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/80 z-10" />
