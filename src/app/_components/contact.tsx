@@ -93,7 +93,7 @@ ${formData.message || 'Não informada'}`;
           >
             {submitted ? (
               <div className="bg-zinc-800 border border-zinc-700 p-12 text-center">
-                <div className="w-16 h-16 bg-yellow-500 mx-auto mb-6 flex items-center justify-center">
+                <div className="w-16 h-16 bg-blue-500 mx-auto mb-6 flex items-center justify-center">
                   <Send size={32} className="text-zinc-900" />
                 </div>
 
@@ -207,19 +207,19 @@ ${formData.message || 'Não informada'}`;
             className="space-y-8"
           >
             <div className="bg-zinc-800 border border-zinc-700 p-6 flex items-start gap-4">
-              <Phone size={24} className="text-yellow-500" />
+              <Phone size={24} className="text-blue-500" />
               <span className="text-zinc-400">(11) 99999-9999</span>
             </div>
 
             <div className="bg-zinc-800 border border-zinc-700 p-6 flex items-start gap-4">
-              <Mail size={24} className="text-yellow-500" />
+              <Mail size={24} className="text-blue-500" />
               <span className="text-zinc-400">
                 contato@referenciaobras.com.br
               </span>
             </div>
 
             <div className="bg-zinc-800 border border-zinc-700 p-6 flex items-start gap-4">
-              <MapPin size={24} className="text-yellow-500" />
+              <MapPin size={24} className="text-blue-500" />
               <span className="text-zinc-400">São Paulo - SP</span>
             </div>
           </motion.div>

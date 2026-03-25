@@ -15,8 +15,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-yellow-500 flex items-center justify-center">
-                <span className="font-black text-zinc-900 text-xl">R</span>
+              <div className="w-12 h-12 bg-blue-500 flex items-center justify-center">
+                <span className="font-black text-white text-xl">R</span>
               </div>
               <div>
                 <span className="font-black text-lg tracking-tight">
@@ -38,7 +38,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="social-instagram"
-                className="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-yellow-500 hover:text-zinc-900 transition-colors"
+                className="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-blue-500 hover:text-zinc-900 transition-colors"
               >
                 <Instagram size={18} />
               </a>
@@ -47,7 +47,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="social-linkedin"
-                className="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-yellow-500 hover:text-zinc-900 transition-colors"
+                className="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-blue-500 hover:text-zinc-900 transition-colors"
               >
                 <Linkedin size={18} />
               </a>
@@ -56,7 +56,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="social-facebook"
-                className="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-yellow-500 hover:text-zinc-900 transition-colors"
+                className="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-blue-500 hover:text-zinc-900 transition-colors"
               >
                 <Facebook size={18} />
               </a>
@@ -70,7 +70,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#inicio"
-                  className="text-zinc-400 hover:text-yellow-500 transition-colors"
+                  className="text-zinc-400 hover:text-blue-500 transition-colors"
                 >
                   Início
                 </a>
@@ -78,7 +78,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#servicos"
-                  className="text-zinc-400 hover:text-yellow-500 transition-colors"
+                  className="text-zinc-400 hover:text-blue-500 transition-colors"
                 >
                   Serviços
                 </a>
@@ -86,7 +86,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#projetos"
-                  className="text-zinc-400 hover:text-yellow-500 transition-colors"
+                  className="text-zinc-400 hover:text-blue-500 transition-colors"
                 >
                   Projetos
                 </a>
@@ -94,7 +94,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#sobre"
-                  className="text-zinc-400 hover:text-yellow-500 transition-colors"
+                  className="text-zinc-400 hover:text-blue-500 transition-colors"
                 >
                   Sobre Nós
                 </a>
@@ -102,7 +102,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#contato"
-                  className="text-zinc-400 hover:text-yellow-500 transition-colors"
+                  className="text-zinc-400 hover:text-blue-500 transition-colors"
                 >
                   Contato
                 </a>
@@ -114,33 +114,33 @@ export default function Footer() {
             <h3 className="font-bold uppercase tracking-wider mb-6">Contato</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Phone size={16} className="text-yellow-500 mt-1" />
+                <Phone size={16} className="text-blue-500 mt-1" />
                 <div className="text-zinc-400">
                   <a
                     href="tel:+5511999999999"
-                    className="hover:text-yellow-500 transition-colors block"
+                    className="hover:text-blue-500 transition-colors block"
                   >
                     (11) 99999-9999
                   </a>
                   <a
                     href="tel:+551133333333"
-                    className="hover:text-yellow-500 transition-colors block"
+                    className="hover:text-blue-500 transition-colors block"
                   >
                     (11) 3333-3333
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Mail size={16} className="text-yellow-500 mt-1" />
+                <Mail size={16} className="text-blue-500 mt-1" />
                 <a
                   href="mailto:contato@referenciaobras.com.br"
-                  className="text-zinc-400 hover:text-yellow-500 transition-colors break-all"
+                  className="text-zinc-400 hover:text-blue-500 transition-colors break-all"
                 >
                   contato@referenciaobras.com.br
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin size={16} className="text-yellow-500 mt-1" />
+                <MapPin size={16} className="text-blue-500 mt-1" />
                 <span className="text-zinc-400">
                   Rua das Engenharias, 100
                   <br />
