@@ -120,13 +120,7 @@ export default function Footer() {
                     href="tel:+5511999999999"
                     className="hover:text-blue-500 transition-colors block"
                   >
-                    (11) 99999-9999
-                  </a>
-                  <a
-                    href="tel:+551133333333"
-                    className="hover:text-blue-500 transition-colors block"
-                  >
-                    (11) 3333-3333
+                    (11) 98539-4947
                   </a>
                 </div>
               </li>
@@ -142,7 +136,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-blue-500 mt-1" />
                 <span className="text-zinc-400">
-                  Rua das Engenharias, 100
+                  Rua Ilha Dourada, 26
                   <br />
                   São Paulo - SP
                 </span>
@@ -165,9 +159,7 @@ export default function Footer() {
               GuiJsWeb
             </a>
           </p>
-          <p className="text-sm text-zinc-600">
-            CNPJ: 00.000.000/0001-00 | CREA-SP: 0000000000
-          </p>
+          <p className="text-sm text-zinc-600">CNPJ: 13.054.344/0001-25</p>
         </div>
       </div>
     </footer>

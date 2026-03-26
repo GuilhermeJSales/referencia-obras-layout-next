@@ -1,4 +1,5 @@
 import About from './_components/about';
+import Avcb from './_components/avbc';
 import Clients from './_components/clients';
 import { Contact } from './_components/contact';
 import Footer from './_components/footer';
@@ -14,9 +15,9 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
+      <Avcb />
       <Portfolio />
       <Clients />
-      <Testimonials />
       <About />
       <Contact />
       <Footer />
