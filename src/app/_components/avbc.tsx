@@ -44,7 +44,7 @@ export default function Avcb() {
             transition={{ duration: 0.6 }}
           >
             <span className="text-blue-500 text-sm font-bold uppercase tracking-widest">
-              Sobre Nós
+              Especialidade
             </span>
 
             <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mt-4 mb-6">
