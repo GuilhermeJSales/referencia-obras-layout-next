@@ -32,12 +32,10 @@ export default function Avcb() {
 
   return (
     <section className="py-24 bg-zinc-900 relative overflow-hidden">
-      {/* glow background */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-blue-500/20 blur-[120px]" />
 
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* TEXTO */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -64,7 +62,6 @@ export default function Avcb() {
               penalizações.
             </p>
 
-            {/* FEATURES */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {features.map((item, i) => {
                 const Icon = item.icon;
@@ -84,7 +81,6 @@ export default function Avcb() {
             </div>
           </motion.div>
 
-          {/* IMAGEM */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -92,7 +88,6 @@ export default function Avcb() {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden border border-zinc-700">
-              {/* overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
 
               <Image

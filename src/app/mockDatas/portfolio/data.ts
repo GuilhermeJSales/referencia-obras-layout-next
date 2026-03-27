@@ -5,6 +5,16 @@ import {
   RegionsProps,
 } from './types';
 
+import agenciaVP from './agenciavp.png';
+import brAutoParts from './brautoparts.png';
+import castor from './castor.png';
+import comolatti from './comolatti.png';
+import express from './express.png';
+import iveco from './iveco.png';
+import orbid from './orbid.png';
+import terraco from './terraco.png';
+import viaduto from './viaduto.png';
+
 export const projects: ProjectsProps[] = [
   {
     id: 1,
@@ -243,17 +253,13 @@ export const regions: RegionsProps[] = [
 ];
 
 export const clients: ClientsProps[] = [
-  { name: 'Comolatti', logo: 'COMOLATTI' },
-  { name: 'Express Grill', logo: 'EXPRESS GRILL' },
-  { name: 'Iveco', logo: 'IVECO' },
-  { name: 'Castor', logo: 'CASTOR' },
-  { name: 'Terraço Itália', logo: 'TERRAÇO ITÁLIA' },
-  { name: 'Iveco Cofipe', logo: 'IVECO COFIPE' },
-  { name: 'Viaduto Empilhadeiras', logo: 'VIADUTO EMPILHADEIRAS' },
-  { name: 'BR Auto Parts', logo: 'BRAUTOPARTS' },
-  { name: 'Orbid', logo: 'ORBID7C' },
-  {
-    name: 'Agência Ambiental do Vale do Paraíba',
-    logo: 'AGÊNCIA AMBIENTAL DO VALE',
-  },
+  { name: 'Comolatti', logo: '/comolatti.png' },
+  { name: 'Express Grill', logo: '/express.png' },
+  { name: 'Agência Ambiental - Vale do Paraíba', logo: '/agenciavp.png' },
+  { name: 'Castor', logo: '/castor.png' },
+  { name: 'Terraço Itália', logo: '/terraco.png' },
+  { name: 'Iveco Cofipe', logo: '/iveco.png' },
+  { name: 'Viaduto Empilhadeiras', logo: '/viadutoe.png' },
+  { name: 'BR Auto Parts', logo: '/brautoparts.png' },
+  { name: 'Orbid', logo: '/orbid.png' },
 ];

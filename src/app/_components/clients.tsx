@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import Marquee from 'react-fast-marquee';
 import { clients } from '../mockDatas/portfolio/data';
+import Image from 'next/image';
 export default function Clients() {
   return (
     <section
@@ -27,9 +28,13 @@ export default function Clients() {
       >
         {[...clients, ...clients].map((client, index) => (
           <div key={index} className="mx-12 px-8 py-4">
-            <span className="text-3xl font-black text-zinc-600 uppercase tracking-wider whitespace-nowrap hover:text-zinc-400 transition-colors">
-              {client.logo}
-            </span>
+            <Image
+              src={client.logo}
+              width={200}
+              height={200}
+              alt={client.name}
+              className="opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300"
+            />
           </div>
         ))}
       </Marquee>
