@@ -18,6 +18,7 @@ export default function Home() {
       <Avcb />
       <Portfolio />
       <Clients />
+      <Testimonials />
       <About />
       <Contact />
       <Footer />

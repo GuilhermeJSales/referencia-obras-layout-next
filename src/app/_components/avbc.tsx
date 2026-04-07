@@ -63,25 +63,6 @@ export default function Avcb() {
               que seu imóvel esteja seguro, dentro da lei e livre de riscos e
               penalizações.
             </p>
-
-            {/* FEATURES */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              {features.map((item, i) => {
-                const Icon = item.icon;
-                return (
-                  <div
-                    key={i}
-                    className="bg-zinc-800/60 backdrop-blur-sm border border-zinc-700 p-5 rounded-xl hover:border-blue-500 transition"
-                  >
-                    <Icon className="text-blue-500 mb-3" size={22} />
-                    <h4 className="text-white font-semibold mb-1">
-                      {item.title}
-                    </h4>
-                    <p className="text-md text-zinc-300">{item.description}</p>
-                  </div>
-                );
-              })}
-            </div>
           </motion.div>
 
           {/* IMAGEM */}
