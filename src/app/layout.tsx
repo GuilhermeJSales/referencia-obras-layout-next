@@ -8,7 +8,8 @@ const geistChivo = Chivo({
 });
 
 export const metadata: Metadata = {
-  title: 'Referência Engenharia e Construções | Galpões e AVCB em todo o Brasil',
+  title:
+    'Referência Engenharia e Construções | Galpões e AVCB em todo o Brasil',
   description:
     'Especialistas em construção de galpões industriais, obras comerciais e regularização AVCB com aprovação junto ao Corpo de Bombeiros.',
   keywords: [
@@ -33,14 +34,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Referência Engenharia e Construções | Galpões e AVCB em todo o Brasil',
+    title:
+      'Referência Engenharia e Construções | Galpões e AVCB em todo o Brasil',
     description:
       'Especialistas em construção de galpões industriais, obras comerciais e regularização AVCB com aprovação junto ao Corpo de Bombeiros.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Referência Engenharia e Construções | Galpões e AVCB em todo o Brasil',
+    title:
+      'Referência Engenharia e Construções | Galpões e AVCB em todo o Brasil',
     description:
       'Especialistas em construção de galpões industriais, obras comerciais e regularização AVCB com aprovação junto ao Corpo de Bombeiros.',
   },
